@@ -13,6 +13,6 @@ namespace LCLCDKPaymentService.Models
         public string PaymentType { get; set; }
         public string ToAccount { get; set; }
         public string Amount { get; set; }
-
+        public string BeneficiaryType { get; set; }
     }
 }

@@ -58,6 +58,7 @@ namespace LCLCDKPaymentService.Providers
                         //Json deserializer throws when {} orccurs. That is why we replace all {} with empty string. 
                         var tempResp = responseJson.Replace("{}", "\"\"");
                         res = JsonConvert.DeserializeObject<Response>(tempResp);
+                        res.Returtekst = "Payment created - Archive reference: " + res.Returtekst;
                         //}
                         //else
                         //{
@@ -83,6 +84,7 @@ namespace LCLCDKPaymentService.Providers
                 }
                 catch (Exception ex)
                 {
+                    throw ex;
                     #region ErrorLogging
 
                     #endregion

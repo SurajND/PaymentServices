@@ -65,7 +65,7 @@ namespace LCLCDKPaymentService.Providers
                         DSValuta = "DKK",
                         Valutakode = "DKK",
                         TransferTypeID = "BN 9048",
-                        BeneficiaryType = "ACC                                                                                                 "
+                        BeneficiaryType = payment.BeneficiaryType + "                                                                                                 "
                     });
 
                     client.BaseAddress = new Uri("https://10.14.30.183:8600/mobilebusiness/sb/");
