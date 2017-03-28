@@ -12,7 +12,7 @@ using System.Web.Http.Cors;
 namespace LCLCDKPaymentService.Controllers
 {
     [EnableCors(origins: "*", headers: "*", methods: "*")]
-    public class AccountPaymentServiceController : ApiController
+    public class AccountTransferServiceController : ApiController
     {
         Response r = null;
         [HttpPost]

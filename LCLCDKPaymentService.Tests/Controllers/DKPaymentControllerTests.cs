@@ -18,7 +18,7 @@ namespace LCLCDKPaymentService.Controllers.Tests
         public Payment payment;
         public DKPaymentService client = new DKPaymentService();
         public Response r = null;
-        public AccountPaymentServiceController dkcontroller = new AccountPaymentServiceController();
+        public AccountTransferServiceController dkcontroller = new AccountTransferServiceController();
 
         [TestInitialize]
         public void ClassInitialize()
@@ -50,7 +50,7 @@ namespace LCLCDKPaymentService.Controllers.Tests
         [TestMethod()]
         public void DKPaymentControllerTest()
         {
-            var mock = new Mock<AccountPaymentServiceController>();
+            var mock = new Mock<AccountTransferServiceController>();
 
             //mock.Setup(x => x.MakePayment(It.IsAny<Payment>()));
             //dkcontroller.MakePayment(payment);
