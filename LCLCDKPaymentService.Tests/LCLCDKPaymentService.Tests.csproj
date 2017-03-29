@@ -119,7 +119,7 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\LCLCDKPaymentService\LCLCDKPaymentService.csproj">
-      <Project>{941A6E20-F017-4A91-A0A4-88E39EA31913}</Project>
+      <Project>{941a6e20-f017-4a91-a0a4-88e39ea31913}</Project>
       <Name>LCLCDKPaymentService</Name>
     </ProjectReference>
   </ItemGroup>

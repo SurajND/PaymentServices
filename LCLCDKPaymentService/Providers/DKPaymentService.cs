@@ -117,9 +117,9 @@ namespace LCLCDKPaymentService.Providers
                 catch (Exception ex)
                 {
                     #region ErrorLogging
-                   
+
                     #endregion
-                    return null;
+                    throw ex;
                 }
             }
         }

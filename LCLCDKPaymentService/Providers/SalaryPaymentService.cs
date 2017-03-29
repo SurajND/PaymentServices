@@ -88,7 +88,7 @@ namespace LCLCDKPaymentService.Providers
                     #region ErrorLogging
 
                     #endregion
-                    return null;
+                    //return null;
                 }
             }
         }

@@ -51,5 +51,6 @@ namespace LCLCDKPaymentService.Models
         public string checkGemBtty { get; set; }
         public string ChkModtGem { get; set; }
         public string FoldetUd { get; set; }
+        public string BeneficiaryType { get; set; }
     }
 }
