@@ -52,5 +52,16 @@ namespace LCLCDKPaymentService.Models
         public string ChkModtGem { get; set; }
         public string FoldetUd { get; set; }
         public string BeneficiaryType { get; set; }
+        public string IB_KORTART { get; set; }
+        public string IB_IK_IDENT { get; set; }
+        public string IB_KREDITORNR { get; set; }
+        public string IB_ALT_AFS_NAVN { get; set; }
+        public string IB_ALT_AFS_ADRESSE { get; set; }
+        public string IB_ALT_AFS_POSTNR { get; set; }
+        public string IB_ALT_AFS_BYNAVN { get; set; }
+        public string IB_ALT_AFS_LANDEKODE { get; set; }
+        public string IB_MODTAG_ADVIS_TEKST { get; set; }
+        public string KREDITORNR { get; set; }
+        public string RFNRAR { get; set; }
     }
 }
